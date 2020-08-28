@@ -1,23 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import Input from './Components/input';
+import CheckBoxForm from './Components/checkBoxForm';
 
 function App() {
+  const [kw, setKw] = useState([]);
+  const [brand, setBrand] = useState('');
+  const [location, setLocation] = useState('');
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Input headerText={'Brand Name'} inputVar={brand} setInputVar={setBrand}/>
+        <Input headerText={'Brand Location'} inputVar={location} setInputVar={setLocation} />
+        <CheckBoxForm />
       </header>
     </div>
   );
