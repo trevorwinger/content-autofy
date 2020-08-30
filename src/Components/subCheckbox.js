@@ -8,7 +8,15 @@ const SubCheckbox = ({kw, selected, setSelected}) =>
     const handleChange = (event) => 
     {
         setChecked(event.target.checked);
-        setSelected(selected.concat(event.target.id));
+        if(selected.includes(event.target.id) === false)
+        {
+            setSelected(selected.concat(event.target.id));
+        }
+        else if(event.target.checked === false)
+        {
+            var s = selected.filter(x => x !== event.target.id);
+            setSelected(s);
+        }
     }
     return(
         <div>
