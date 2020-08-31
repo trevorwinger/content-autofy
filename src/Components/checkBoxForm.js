@@ -1,5 +1,6 @@
 import React from 'react';
 import CheckboxParent from './checkBoxParent';
+import RadioButtonFormParent from './radioButtonParent';
 
 
 const typeOfRoofing = ['Residential Roofing', 'Commercial Roofing', 'Shingle Roofing', 'Tile Roofing', 'Metal Roofing', 'Flat Roofing', 'Slate Roofing', 'Solar Roofing'];
@@ -7,13 +8,12 @@ const roofService = ['Roof Replacement','Roof Repair', 'Roof Cleaning', 'Roof Ma
 const repairServices = ['Gutter Repair', 'Storm Damage Repair','Roof Damage Repair'];
 const otherServices = ['Attic Insulation', 'Roof Maxx', 'Gutter Installation', 'Seamless Gutters', 'Skylight Installation', 'Emergency Roofing', 'Leaky Roof'];
 
-const CheckBoxForm = ({kw, setKw}) => 
+const CheckBoxForm = ({kw, setKw, mBrand, setMBrand}) => 
 {
     const styleContainerCheckBoxParent = {
         width:"100%",
         display:"flex", 
         justifyContent:"spaceBetween",
-        padding:"5px",
         margin:"0 auto",   
     }
     
@@ -23,6 +23,7 @@ const CheckBoxForm = ({kw, setKw}) =>
             <CheckboxParent listOfKeywords={roofService} subTitle='Roof Service(s)' selectedList={kw} selectedListStateFunction={setKw} />
             <CheckboxParent listOfKeywords={otherServices} subTitle='Other Service(s)' selectedList={kw} selectedListStateFunction={setKw} />
             <CheckboxParent listOfKeywords={repairServices} subTitle='Repair Services' selectedList={kw} selectedListStateFunction={setKw} />
+            <RadioButtonFormParent choice={mBrand} setChoice={setMBrand} />
         </div>
     );
 }
