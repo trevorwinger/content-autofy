@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93ae13c0447cd56eb566593063b1168a",
+    "revision": "e8aebb4c5ac6fc622542edc1f5cecafa",
     "url": "/content-autofy/index.html"
   },
   {
-    "revision": "3aece9f47491bcc6580c",
+    "revision": "95d80eedd60268b33c43",
     "url": "/content-autofy/static/css/main.4d2a7988.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/content-autofy/static/js/2.12bcf66b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3aece9f47491bcc6580c",
-    "url": "/content-autofy/static/js/main.8e2735db.chunk.js"
+    "revision": "95d80eedd60268b33c43",
+    "url": "/content-autofy/static/js/main.d0f86a0b.chunk.js"
   },
   {
     "revision": "651485775303f323fcdd",
