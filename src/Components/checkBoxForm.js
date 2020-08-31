@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import CheckboxParent from './checkBoxParent';
 
 
@@ -7,30 +7,22 @@ const roofService = ['Roof Replacement','Roof Repair', 'Roof Cleaning', 'Roof Ma
 const repairServices = ['Gutter Repair', 'Storm Damage Repair','Roof Damage Repair'];
 const otherServices = ['Attic Insulation', 'Roof Maxx', 'Gutter Installation', 'Seamless Gutters', 'Skylight Installation', 'Emergency Roofing', 'Leaky Roof'];
 
-const CheckBoxForm = () => 
+const CheckBoxForm = ({kw, setKw}) => 
 {
-    const [selected, setSelected] = useState([]);
-
-    const styleParent = {
-        textAlign:"center",
-    }
-
     const styleContainerCheckBoxParent = {
+        width:"100%",
         display:"flex", 
         justifyContent:"spaceBetween",
+        padding:"5px",
+        margin:"0 auto",   
     }
     
     return (
-        <div style={styleParent}>
-            <h2>Keywords: </h2>
-            <p>For best performance try to only target 3</p>
-            <p>{selected.toString()}</p>
-            <div style={styleContainerCheckBoxParent}>
-                <CheckboxParent listOfKeywords={typeOfRoofing} subTitle='Type of Roofing' selectedList={selected} selectedListStateFunction={setSelected} />
-                <CheckboxParent listOfKeywords={roofService} subTitle='Roof Service(s)' selectedList={selected} selectedListStateFunction={setSelected} />
-                <CheckboxParent listOfKeywords={otherServices} subTitle='Other Service(s)' selectedList={selected} selectedListStateFunction={setSelected} />
-                <CheckboxParent listOfKeywords={repairServices} subTitle='Repair Services' selectedList={selected} selectedListStateFunction={setSelected} />
-            </div>
+        <div style={styleContainerCheckBoxParent}>
+            <CheckboxParent listOfKeywords={typeOfRoofing} subTitle='Type of Roofing' selectedList={kw} selectedListStateFunction={setKw} />
+            <CheckboxParent listOfKeywords={roofService} subTitle='Roof Service(s)' selectedList={kw} selectedListStateFunction={setKw} />
+            <CheckboxParent listOfKeywords={otherServices} subTitle='Other Service(s)' selectedList={kw} selectedListStateFunction={setKw} />
+            <CheckboxParent listOfKeywords={repairServices} subTitle='Repair Services' selectedList={kw} selectedListStateFunction={setKw} />
         </div>
     );
 }

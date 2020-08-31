@@ -3,22 +3,29 @@ import SubCheckbox from './subCheckbox';
 
 const CheckboxParent = ({listOfKeywords, subTitle, selectedList, selectedListStateFunction}) => {
     const styleDiv = {
-        flex:0,
-        textAlign:"center",
-        margin:5, 
-
+        width:"100%",
+        justifyContent:"center",
+        textAlign:"left",
+        float:"center"
     }
 
     const subTitleStyle={
+        float:"center",
+    }
+
+    const subCbStyle = {
         textAlign:"left",
     }
+    
     return(
         <div style={styleDiv}>
-            <h5 style={subTitleStyle}>{subTitle}</h5>
+            <h4 style={subTitleStyle}>{subTitle}</h4>
+            <div style={subCbStyle}>
             {
                 listOfKeywords.map((kw => 
                 <SubCheckbox kw={kw} selected={selectedList} setSelected={selectedListStateFunction}/>))
             }
+            </div>
         </div>
     )
 }
