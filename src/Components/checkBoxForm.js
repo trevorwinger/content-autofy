@@ -22,7 +22,7 @@ const CheckBoxForm = ({kw, setKw, mBrand, setMBrand}) =>
             <CheckboxParent listOfKeywords={typeOfRoofing} subTitle='Type of Roofing' selectedList={kw} selectedListStateFunction={setKw} />
             <CheckboxParent listOfKeywords={roofService} subTitle='Roof Service(s)' selectedList={kw} selectedListStateFunction={setKw} />
             <CheckboxParent listOfKeywords={otherServices} subTitle='Other Service(s)' selectedList={kw} selectedListStateFunction={setKw} />
-            <CheckboxParent listOfKeywords={repairServices} subTitle='Repair Services' selectedList={kw} selectedListStateFunction={setKw} />
+            <CheckboxParent listOfKeywords={repairServices} subTitle='Repair Service(s)' selectedList={kw} selectedListStateFunction={setKw} />
             <RadioButtonFormParent choice={mBrand} setChoice={setMBrand} />
         </div>
     );
