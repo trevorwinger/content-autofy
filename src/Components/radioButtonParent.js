@@ -21,7 +21,7 @@ const RadioButtonParent = ({choice, setChoice}) =>
             <h4>Manufacturer</h4>
             <RadioGroup aria-label="manufacturer" name="manufacturer" value={choice} onChange={handleChange}>
                 <FormControlLabel value="Owens Corning" control={<Radio/>} label="Owens Corning"></FormControlLabel>
-                <FormControlLabel value="Fill this later" control={<Radio/>} label="Change this later"></FormControlLabel>
+                <FormControlLabel value="General Aniline & Film" control={<Radio/>} label="General Aniline & Film"></FormControlLabel>
             </RadioGroup>
         </div>
     )
