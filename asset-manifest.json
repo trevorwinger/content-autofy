@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/content-autofy/static/css/main.4d2a7988.chunk.css",
+    "main.js": "/content-autofy/static/js/main.8e2735db.chunk.js",
+    "main.js.map": "/content-autofy/static/js/main.8e2735db.chunk.js.map",
+    "runtime-main.js": "/content-autofy/static/js/runtime-main.17324fff.js",
+    "runtime-main.js.map": "/content-autofy/static/js/runtime-main.17324fff.js.map",
+    "static/js/2.12bcf66b.chunk.js": "/content-autofy/static/js/2.12bcf66b.chunk.js",
+    "static/js/2.12bcf66b.chunk.js.map": "/content-autofy/static/js/2.12bcf66b.chunk.js.map",
+    "index.html": "/content-autofy/index.html",
+    "precache-manifest.f9e5e67e50c0d4985747843bea122ae4.js": "/content-autofy/precache-manifest.f9e5e67e50c0d4985747843bea122ae4.js",
+    "service-worker.js": "/content-autofy/service-worker.js",
+    "static/css/main.4d2a7988.chunk.css.map": "/content-autofy/static/css/main.4d2a7988.chunk.css.map",
+    "static/js/2.12bcf66b.chunk.js.LICENSE.txt": "/content-autofy/static/js/2.12bcf66b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17324fff.js",
+    "static/js/2.12bcf66b.chunk.js",
+    "static/css/main.4d2a7988.chunk.css",
+    "static/js/main.8e2735db.chunk.js"
+  ]
+}
