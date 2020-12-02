@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/content-autofy/static/css/main.4d2a7988.chunk.css",
-    "main.js": "/content-autofy/static/js/main.d0f86a0b.chunk.js",
-    "main.js.map": "/content-autofy/static/js/main.d0f86a0b.chunk.js.map",
+    "main.css": "/content-autofy/static/css/main.932f029f.chunk.css",
+    "main.js": "/content-autofy/static/js/main.163c9fcc.chunk.js",
+    "main.js.map": "/content-autofy/static/js/main.163c9fcc.chunk.js.map",
     "runtime-main.js": "/content-autofy/static/js/runtime-main.17324fff.js",
     "runtime-main.js.map": "/content-autofy/static/js/runtime-main.17324fff.js.map",
     "static/js/2.12bcf66b.chunk.js": "/content-autofy/static/js/2.12bcf66b.chunk.js",
     "static/js/2.12bcf66b.chunk.js.map": "/content-autofy/static/js/2.12bcf66b.chunk.js.map",
     "index.html": "/content-autofy/index.html",
-    "precache-manifest.4f7faaebf6bd7047c6c60be63b3af0c2.js": "/content-autofy/precache-manifest.4f7faaebf6bd7047c6c60be63b3af0c2.js",
+    "precache-manifest.593dcadcea23a225076935ab824092c3.js": "/content-autofy/precache-manifest.593dcadcea23a225076935ab824092c3.js",
     "service-worker.js": "/content-autofy/service-worker.js",
-    "static/css/main.4d2a7988.chunk.css.map": "/content-autofy/static/css/main.4d2a7988.chunk.css.map",
+    "static/css/main.932f029f.chunk.css.map": "/content-autofy/static/css/main.932f029f.chunk.css.map",
     "static/js/2.12bcf66b.chunk.js.LICENSE.txt": "/content-autofy/static/js/2.12bcf66b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.17324fff.js",
     "static/js/2.12bcf66b.chunk.js",
-    "static/css/main.4d2a7988.chunk.css",
-    "static/js/main.d0f86a0b.chunk.js"
+    "static/css/main.932f029f.chunk.css",
+    "static/js/main.163c9fcc.chunk.js"
   ]
 }
