@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import Input from './Components/input';
 import CheckboxFormParent from './Components/checkBoxFormParent';
+import Content from './Components/content';
 
 function App() {
   const [kw, setKw] = useState([]);
@@ -31,8 +32,11 @@ function App() {
           <Input headerText={'Brand Name'} inputVar={brand} setInputVar={setBrand}/>
           <Input headerText={'Brand Location'} inputVar={location} setInputVar={setLocation} />
         </div>
-        <div styel={styleCBFP}>
+        <div style={styleCBFP}>
           <CheckboxFormParent style={styleCBFP} kwList={kw} setKwList={setKw} mBrand={manuBrand} setMBrand={setManuBrand}/>
+        </div>
+        <div>
+          <Content brand={brand} location={location} kws={kw} manu={manuBrand} />
         </div>
       </header>
     </div>
